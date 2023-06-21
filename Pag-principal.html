@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <script defer src="https://app.embed.im/snow.js"></script>
+  <title>Night Out</title>
+</head>
+
+<body>
+  <div class="container">
+    <aside>
+      <nav>
+        <div class="menu">
+          <a class="active" href="#"><span><span class="material-symbols-outlined">home</span></span>Inicio</a>
+          <a href="Artista.php"><span><span class="material-symbols-outlined">music_note</span></span>Artistas</a> <br>
+          <a href="Sobre-Nosotros.php"><span><span class="material-symbols-outlined">help</span></span>Ayuda</a>
+        </div>
+      </nav>
+    </aside>
+    <header>
+
+    </header>
+    <section>
+      <div class="contenedor_degradado">
+        <div class="banner">
+          <div class="cancion">
+            <figure>
+              <img src="Fotos/morat.jpg" alt="">
+            </figure>
+          </div>
+          <div class="cancion">
+            <figure>
+              <img src="Fotos/blackpink.jpg" alt="">
+            </figure>
+          </div>
+          <div class="cancion">
+            <figure>
+              <img src="Fotos/Taylor.jpg" alt="">
+            </figure>
+          </div>
+          <div class="cancion">
+            <figure>
+              <img src="Fotos/camila.jpg" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor_contenido">
+        <div class="titulos">
+          <h1>Canciones populares</h1>
+        </div>
+        <div class="generos">
+          <div class="cards">
+            <div class="card_imagen"><img src="Fotos/sebastian%20yatra.jpg" alt=""></div>
+            <div class="card_text">
+              <h4>Tacones rojos</h4>
+              <img class="imagen" src="Fotos/play.svg" alt="Imagen de la canción 1">
+              <audio class="reproductor"
+                src="Musica/POP/SnapSave.io%20-%20Sebasti%C3%A1n%20Yatra%20-%20Tacones%20Rojos%20(Official%20Video)%20(128%20kbps).mp3"
+                type="audio/mpeg"></audio>
+              <br>
+
+              <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card_imagen"><img src="Fotos/billie.jpg" alt=""></div>
+            <div class="card_text">
+              <h4>Bad Guy</h4>
+              <img class="imagen" src="Fotos/play.svg" alt="Imagen de la canción 2">
+              <audio class="reproductor"
+                src="Musica/POP/SnapSave.io%20-%20Billie%20Eilish%20-%20bad%20guy%20(128%20kbps).mp3"
+                type="audio/mpeg"></audio>
+              <br>
+
+              <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card_imagen"><img src="Fotos/Maluma.jpg" alt=""></div>
+            <div class="card_text">
+              <h4>Hawaii</h4>
+              <img class="imagen" src="Fotos/play.svg" alt="Imagen de la canción 3">
+              <audio class="reproductor"
+                src="Musica/Regeton/SnapSave.io%20-%20Maluma%20-%20Haw%C3%A1i%20(Official%20Video)%20(128%20kbps).mp3"
+                type="audio/mpeg"></audio>
+              <br>
+
+              <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cancion"></div>
+            <div class="card_imagen"><img src="Fotos/Becky%20g.jpg" alt="">
+            </div>
+            <div class="card_text">
+              <h4>Dollar</h4>
+              <img class="imagen" src="Fotos/play.svg" alt="Imagen de la canción 3">
+              <audio class="reproductor"
+                src="Musica/Regeton/SnapSave.io%20-%20Becky%20G,%20Myke%20Towers%20-%20DOLLAR%20(Official%20Video)%20(128%20kbps).mp3"
+                type="audio/mpeg"></audio>
+              <br>
+
+              <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+            </div>
+          </div>
+          
+          <div class="cards">
+            <div class="card_imagen"><img src="Fotos/emilio.jpg" alt=""></div>
+            <div class="card_text">
+              <h4>Solo un beso</h4>
+              <img class="imagen" src="Fotos/play.svg" alt="Imagen de la canción 3">
+              <audio class="reproductor"
+                src="Musica/POP/SnapSave.io%20-%20EMILIO%20-%20Solo%20Un%20Bes%F0%9F%92%8B%20(Video%20Oficial)%20(128%20kbps).mp3"
+                type="audio/mpeg"></audio>
+              <br>
+
+              <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card_imagen"><img src="Fotos/price.jpg" alt=""></div>
+            <div class="card_text">
+              <h4>Darte un beso</h4>
+              <img class="imagen" src="Fotos/play.svg" alt="Imagen de la canción 3">
+              <audio class="reproductor"
+                src="Musica/Bachata/SnapSave.io%20-%20Prince%20Royce%20-%20Darte%20un%20Beso%20(128%20kbps).mp3"
+                type="audio/mpeg"></audio>
+              <br>
+
+              <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="titulos">
+          <h2>Generos</h2>
+
+        </div>
+        <span>Salsa</span>
+        <div class="podcast">
+          <div class="card_podcast">
+            <img src="Fotos/queen.jpg" witdh="50" height="50" alt="">
+            <h4>Bohemian Rhapsody</h4>
+            <p> Queen</p>
+            <audio id="Cancion" controls>
+              <source
+                src="Musica/Salsa/SnapSave.io%20-%20Queen%20%E2%80%93%20Bohemian%20Rhapsody%20(Official%20Video%20Remastered)%20(128%20kbps).mp3"
+                type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <br>
+
+            <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+
+          </div>
+          <div class="card_podcast">
+            <img src="Fotos/mihel.jpg" alt="">
+            <h4>Billie Jean</h4>
+            <p>Michael Jackson</p>
+            <audio id="Cancion" controls>
+              <source
+                src="Musica/Salsa/SnapSave.io%20-%20Michael%20Jackson%20-%20Billie%20Jean%20(Official%20Video)%20(128%20kbps).mp3"
+                type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <br>
+
+            <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+          </div>
+
+          <div class="card_podcast">
+            <img src="Fotos/ruben.jpg" alt="">
+            <h4>Pedro Navaja</h4>
+            <p>Rubén Blades</p>
+            <audio id="Cancion" controls>
+              <source
+                src="Musica/Salsa/SnapSave.io%20-%20Ruben%20Blades%20%20%20Pedro%20Navaja%20Video%20Original%20(128%20kbps).mp3"
+                type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <br>
+
+            <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+          </div>
+          <div class="card_podcast">
+            <img src="Fotos/Hector.jpg" alt="">
+            <h4>El Cantante</h4>
+            <p> Héctor Lavoe</p>
+            <audio id="Cancion" controls>
+              <source
+                src="Musica/Salsa/SnapSave.io%20-%20Hector%20Lavoe%20-%20El%20Cantante%20(salsa)%20(128%20kbps).mp3"
+                type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <br>
+
+            <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+          </div>
+        </div>
+
+        <span>K-Pop</span>
+        <br>
+        <div class="podcast">
+          <div class="card_podcast">
+            <img src="Fotos/exo.jpg" alt="">
+            <h4>Monster</h4>
+            <p> Exo</p>
+            <audio id="Cancion" controls>
+              <source src="Musica/K-pop/SnapSave.io%20-%20EXO%20%EC%97%91%EC%86%8C%20'Monster'%20MV%20(128%20kbps).mp3"
+                type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <br>
+
+            <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+          </div>
+          <div class="card_podcast">
+            <img src="Fotos/queen%20card.jpg" alt="">
+            <h4>queen card</h4>
+            <p>(G)I-DLE</p>
+            <audio id="Cancion" controls>
+              <source
+                src="Musica/K-pop/SnapSave.io%20-%20(G)I-DLE%20-%20Queencard%20(Traducida%20al%20Espa%C3%B1ol)%20(128%20kbps).mp3"
+                type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <br>
+
+            <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+          </div>
+          <div class="card_podcast">
+
+            <img src="Fotos/dynamite.jpg" alt="">
+            <h4>Dynamite</h4>
+            <p>Bts</p>
+            <audio id="Cancion" controls>
+              <source
+                src="Musica/K-pop/SnapSave.io%20-%20BTS%20(%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8)%20'Dynamite'%20Official%20MV%20(128%20kbps).mp3"
+                type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <br>
+
+            <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+          </div>
+
+          <div class="card_podcast">
+            <img src="Fotos/twicw.jpg" alt="">
+            <h4>Fancy</h4>
+            <p> Twice</p>
+            <audio id="Cancion" controls>
+              <source src="Musica/K-pop/SnapSave.io%20-%20TWICE%20_FANCY_%20M_V%20(128%20kbps).mp3" type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <br>
+
+            <i onclick="agregarFavorito(this)" class="far fa-heart"></i>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  <script>
+    var imagenes = document.getElementsByClassName('imagen');
+
+    for (var i = 0; i < imagenes.length; i++) {
+      imagenes[i].addEventListener('click', function () {
+        var reproductor = this.nextElementSibling;
+
+        if (reproductor.paused) {
+          reproductor.play();
+        } else {
+          reproductor.pause();
+        }
+      });
+    }
+  </script>
+
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script>
+    // Función para agregar una canción como favorita
+    function agregarFavorito(icono) {
+      icono.classList.toggle('far'); // Quitar clase "far" (corazón vacío)
+      icono.classList.toggle('fas'); // Agregar clase "fas" (corazón lleno)
+
+      // Función para agregar una canción a favoritos
+
+      const cancion = icono.parentNode;
+      const titulo = cancion.querySelector('h4').textContent;
+      const artista = cancion.querySelector('p').textContent;
+      const audio = cancion.querySelector('audio').src;
+
+      // Obtener las canciones favoritas almacenadas actualmente (si existen)
+      const cancionesFavoritas = JSON.parse(localStorage.getItem('cancionesFavoritas')) || [];
+
+      // Agregar la nueva canción a la lista de favoritas
+      cancionesFavoritas.push({ titulo, imagen, artista, audio });
+
+      // Guardar las canciones favoritas actualizadas en el almacenamiento local
+      localStorage.setItem('cancionesFavoritas', JSON.stringify(cancionesFavoritas));
+    }
+
+
+  </script>
+
+
+
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    var Cancion = document.getElementById('Cancion');
+
+    function reproducir() {
+      Cancion.play();
+    }
+
+    function pausar() {
+      Cancion.pause();
+    }
+
+    function detener() {
+      Cancion.currentTime = 0;
+      Cancion.pause();
+    }
+  </script>
+
+</body>
+
+</html>
